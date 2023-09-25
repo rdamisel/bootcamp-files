@@ -1,0 +1,130 @@
+h1.color-name{
+    color:blue;
+    font-family: serif;
+}
+
+h1.color-rgb{
+    color:rgb(0, 0, 255);
+    font-family: sans-serif;
+}
+
+h1.color-rgba{
+    color: rgba(0, 0, 255, 1);
+    font-family: monospace;
+}
+
+h1 .color-hexcode{
+    color: #0000FF;
+}
+
+/* font sizes */
+p.font-size-10 {
+    font-size: 10px;
+}
+p.font-size-20 {
+    font-size: 20px;
+}
+p.font-size-30 {
+    font-size: 30px;
+}
+
+p.font-size-100-percent {
+    font-size: 100%;
+}
+p.font-size-200-percent {
+    font-size: 200%;
+}
+p.font-size-300-percent {
+    font-size: 300%;
+}
+
+p.font-size-10-em {
+    font-size: 10em;
+}
+p.font-size-20-em {
+    font-size: 20em;
+}
+p.font-size-30-em {
+    font-size: 30em;
+}
+
+
+/* font style */
+h2.normal {
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: left;
+}
+h2.italic {
+    font-style: italic;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: center;
+}
+h2.oblique {
+    font-style: oblique;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: right;
+}
+
+p.normal {
+    font-style: normal;
+}
+p.italic {
+    font-style: italic;
+}
+p.oblique {
+    font-style: oblique;
+}
+
+
+h1.text-shadow {
+    color: white;
+    text-shadow: 5px  5px 10px blue;
+}
+
+p.text-indent-px {
+    text-indent: 100px;
+}
+p.text-indent-percent{
+    text-indent: 10%;
+}
+p.text-indent-em{
+    text-indent: 5em;
+}
+
+
+p.letter-spacing1 {
+    letter-spacing: 5px;
+}
+p.letter-spacing2 {
+    letter-spacing: 10px;
+}
+p.letter-spacing3 {
+    letter-spacing: 20px;
+}
+p.letter-spacing4 {
+    letter-spacing: 30px;
+}
+p.letter-spacing5 {
+    letter-spacing: 50px;
+}
+
+
+p.word-spacing1 {
+    word-spacing: 5px;
+}
+p.word-spacing2 {
+    word-spacing: 10px;
+}
+p.word-spacing3 {
+    word-spacing: 20px;
+}
+p.word-spacing4 {
+    word-spacing: 30px;
+}
+p.word-spacing5 {
+    word-spacing: 50px;
+}

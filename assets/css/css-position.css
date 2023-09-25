@@ -1,0 +1,26 @@
+.red-box{
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    position: relative;
+    left: 50px;
+}
+
+
+.parent {
+    margin-top: 50px;
+    width: 250px;
+    height: 150px;
+    border: 2px solid blue;
+    position: relative;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+}

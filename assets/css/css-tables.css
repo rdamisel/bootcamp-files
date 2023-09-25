@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid blue;
+    empty-cells: show; /* hide */
+    border-collapse: collapse;
+    width: 50%;
+    border-spacing: 15px 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+th{
+    background-color: black;
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+

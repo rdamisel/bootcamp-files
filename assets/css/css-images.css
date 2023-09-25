@@ -1,0 +1,22 @@
+.container-background-parent {
+    background-image: url(https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.container-background-child{
+    background-image: url(../images/image1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}

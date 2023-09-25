@@ -1,0 +1,18 @@
+* {
+    /* universal selector */
+    color:red;
+}
+
+h3 {
+    color:green;
+}
+
+.colorname {
+    /* css class */
+    color: black;
+}
+
+#color-id-name {
+    /* css id */
+    color:blue;
+}

@@ -1,0 +1,51 @@
+.block {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 10px;
+    display: block;
+}
+.inline {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    margin: 10px;
+    display: inline;
+}
+
+.inline-block {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
+}
+
+.z-index {
+    position: relative;
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 2;
+}
+
